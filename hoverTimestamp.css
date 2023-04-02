@@ -1,1 +1,18 @@
-//yes
+/* this is a quick snippet to make the discord message timestamps only visable when you hover over it */
+/* if you are seeing this feel free to change stuff around */
+
+span.timestamp-p1Df1m {
+  opacity: 0;
+}
+
+span.timestampInline-_lS3aK {
+  opacity: 0;
+}
+
+span.timestamp-p1Df1m:hover {
+  opacity: 100;
+}
+
+span.timestampInline-_lS3aK:hover {
+  opacity: 100;
+}
