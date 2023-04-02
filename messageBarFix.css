@@ -1,0 +1,50 @@
+
+.form-3gdLxP {
+  padding: 0px;
+}
+
+.channelTextArea-1VQBuV {
+  margin-bottom: 0px;
+}
+
+/* Make the height consistent */
+.inner-NQg18Y {
+  padding-top: 4px;
+  min-height: 49px;
+}
+
+/* Move the slowmode/typing indicator */
+.base-3bcbY3 {
+  top: -24px;
+  left: 0px;
+  width: fit-content;
+  padding-right: 9px;
+  border-radius: 0 8px 0 0;
+  background-color: var(--channeltextarea-background);
+}
+
+.scrollableContainer-15eg7h {
+  border-radius: 0px;
+  min-height: 53px;
+}
+
+/*
+The below influences the settings button, optional but makes the line consistent
+across the entire client
+*/
+/* Move settings (3rd, hence :nth-child(3)) button */
+.container-YkUktl:last-of-type>.flex-2S1XBF.flex-3BkGQD :nth-child(3) {
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+}
+
+/* Decrease height of server list to make room for settings button */
+.guilds-2JjMmN {
+    margin-bottom: 53px;
+}
+
+/* Make the background distinct */
+.container-1eFtFS {
+  background: var(--background-secondary);
+}
