@@ -1,5 +1,14 @@
 # randomDiscordThemesSnippits
-basically me do random shit testing and create stuff for my vencord client
-half of the stuff probably wont work (i think)
-and maybe im working on it
-i might orginaze this repo in the future but rn its for my testing purposes
+basically repo of me doing random sh##
+
+# Finished Stuff me worked on
+finished-making/
+feel free to use that
+
+# what i am working on
+if i haven't yet added it in a folder then i am working on it or im testing it
+
+# what is stolen??
+probaby good plugins i took from others on the discord servers
+wont recommend using my links as they wont update
+so support the original creators
