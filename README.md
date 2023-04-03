@@ -1,5 +1,5 @@
 # randomDiscordThemesSnippits
-basically repo of me doing random sh##
+basically repo of me doing random sh## on vencord or other clients
 
 # Finished Stuff me worked on
 `randomDiscordThemesSnippits/finished-making/`\
@@ -17,4 +17,4 @@ so support the original creators
 didnt ask\
 dont care\
 cope\
-ratio\
+ratio
