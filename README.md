@@ -18,3 +18,6 @@ didnt ask\
 dont care\
 cope\
 ratio
+
+# who me on discord?
+Deko#4703
