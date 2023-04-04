@@ -1,4 +1,6 @@
-/* Better Jump To Present Button */
+/* Better Jump To Present Button 
+Fork this to change values and stuff */
+
 [class*="jumpToPresentBar"] {
     display: contents;
 }
