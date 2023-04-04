@@ -1,4 +1,4 @@
-# randomDiscordThemesSnippits
+# randomDiscordThemesSnippets
 basically repo of me doing random sh## on vencord or other clients
 
 # Finished Stuff me worked on
