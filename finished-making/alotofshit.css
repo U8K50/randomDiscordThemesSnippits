@@ -1,0 +1,272 @@
+/* FOR WINDOWS changes the text on top left */
+.wordmarkWindows-2dq6rw svg {
+    display: none;
+}
+.wordmarkWindows-2dq6rw::after {
+    content: 'UwUchord';
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 16px;
+    line-height: 16px;
+    font-family: var(--font-headline);
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--muted-text);
+}
+
+/* Verical golive screen selection from A user#8169 */
+.sourceContainer-1uqUbz {
+    flex-direction: column;
+}
+.sourceName-3Wf8QG {
+    width: unset;
+}
+.tile-3POX2m > .flex-2S1XBF {
+    flex-direction: row;
+    justify-content: start;
+}
+.tile-3POX2m > .flex-2S1XBF > .flex-2S1XBF {
+    flex: unset !important;
+    margin-right: 16px;
+}
+
+/* shows full bio of user (clearly stolen from aaav :) */
+[class|=userPopoutInner] [style*="-webkit-line-clamp"] {
+    -webkit-line-clamp: unset !important;
+}
+
+/* You can change around the settings for the delay and stuff */
+.panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {
+    opacity: 0% !important;
+    width: 0px;
+    transition: all 0.2s ease-in-out;
+}
+
+.panels-3wFtMD > .container-YkUktl:hover .flex-2S1XBF > :not(:last-child) {
+    opacity: 100% !important;
+    width: 32px;
+}
+
+/* reveal timestamp of message on hover */
+[class*=timestampInline-] {
+  opacity: 0;
+  transition: 0.2s opacity ease-in-out;
+}
+
+[class^=message-]:hover [class*=timestampInline-] {
+  opacity: 1;
+}
+
+/* Makes messages slide into chat 
+Try changing the second value '0.6s' and fiddle around with it to change the speed*/
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.message-2CShn3 {
+  animation: slide-up 0.6s ease;
+}
+
+/* emoji tab menu animation */
+.base-2v-uc0 {
+    transition: all 0.5s;
+}
+.base-2v-uc0:hover {
+    transition: all 0s;
+    transform: scale(1.02);
+}
+
+/* re-round Spotify Status Images */
+.assetsLargeImageSpotify-17ME3M{border-radius:8px;}
+
+/* Offline Tag In Member List */
+.offline-22aM7E .wrapper-1VLyxH > svg > foreignObject{mask:url(#svg-mask-avatar-status-round-32);}
+.offline-22aM7E .wrapper-1VLyxH > svg > foreignObject::before {
+content: "";
+width: 10px;
+height: 10px;
+background-color: hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%);;
+display: block;
+right: 0px;
+bottom: 0px;
+position: absolute;
+border-radius: 50%;
+}
+.offline-22aM7E .wrapper-1VLyxH > svg > foreignObject::after{
+content: "";
+width: 6px;
+height: 6px;
+background-color: var(--background-secondary-alt);
+display: block;
+right: 2px;
+bottom: 2px;
+position: absolute;
+border-radius: 50%;
+z-index: 999!important;
+}
+.offline-22aM7E{opacity: 1;}
+
+/* reworked jumped to present */
+[class*="jumpToPresentBar"] {
+    display: contents;
+}
+[class*="jumpToPresentBar"] > button:first-child {
+    display: none;
+}
+[class*="jumpToPresentBar"] > button:last-child {
+    position: absolute;
+    z-index: 1;
+    bottom: 24px;
+    right: 22px;
+    padding: 8px !important;
+    height: auto;
+    background-color: #5865F2;
+    box-shadow: var(--elevation-high);
+    border-radius: 100px;
+    display: flex;
+    font-size: 0px;
+    color: transparent;
+    transition: font-size .2s .1s, color .2s, padding .4s .1s;
+}
+[class*="jumpToPresentBar"] > button svg {
+    order: -1;
+    margin: 0px;
+    height: 24px;
+    width: 24px;
+    top: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #FFFFFF;
+    transition: margin .6s;
+}
+[class*="jumpToPresentBar"]:hover > button {
+    padding: 8px 18px !important;
+    font-size: 14px;
+    color: #FFFFFF;
+    transition: font-size .2s, color .2s .1s, padding .4s;
+}
+[class*="jumpToPresentBar"]:hover > button svg {
+    margin-right: 2px;
+    margin-left: -6px;
+}
+
+/* animation for menu that pop out */ 
+.menu-1QACrS, .emojiPicker-6YCk8a, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2o3qEW, .container-2ebMPP, .userPopout-2j1gM4 {
+    animation: custom-menu-animation 250ms ease;
+    transform-origin: top;
+}
+@keyframes custom-menu-animation {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+/* spinning home button */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(-20deg);
+    }
+    70% {
+        transform: rotate(380deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.listItemWrapper-3d87LP:hover .homeIcon-r0w4ny:hover {
+    animation: spin 0.8s ease;
+}
+
+/* blur spoilers */
+.spoilerText-27bIiA,
+.spoilerText-27bIiA.hidden-3B-Rum {
+    background-color: transparent !important;
+}
+
+.spoilerText-27bIiA.hidden-3B-Rum > .inlineContent-2YnoDy {
+    opacity: 1 !important;
+    filter: blur(3px);
+    pointer-events: unset;
+}
+
+/* hide nitro icon on banners */
+.bannerPremium-2hSAwz .premiumIconWrapper-1A-UH5 {
+  display: none;
+}
+
+/* visible vc text icon */
+#app-mount .openChatIconItem-2kj5qO {
+    display: flex;
+    order: 1;
+    justify-content: center;
+    border-radius: 4px;
+    width: 42px;
+    padding-right: 0;
+}
+
+.openChatIconItem-2kj5qO:hover { background-color: var(--background-modifier-selected); }
+.openChatIconItem-2kj5qO .actionIcon-2sw4Sl { color: var(--channels-default); }
+
+/* account detail collumn */
+.background-3d_SjE {
+    background-color: transparent;
+}
+.fieldList-in8WkP {
+    background-color: transparent;
+}
+.field-21XZwa:last-child {
+    margin-right: 0 !important;
+}
+.field-21XZwa {
+    width: calc((100%/3) - ((20/3) * 1px));
+    border-radius: 8px;
+    background-color: var(--background-primary);
+    max-height: none;
+    flex-flow: column;
+    padding: 15px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 0 !important;
+    position: relative;
+    overflow-y: scroll;
+    height: 125px;
+}
+.field-21XZwa::-webkit-scrollbar {
+    width: 0;
+}
+.field-21XZwa .fieldButton-14lHvK {
+    background-color: var(--background-secondary) !important;
+    border-radius: 8px;
+    transition: .3s;
+}
+.field-21XZwa .fieldButton-14lHvK:hover {
+    background-color: var(--background-secondary-alt) !important;
+}
+.field-21XZwa .fieldButton-14lHvK:hover > div {
+    background-image: none !important;
+}
+.field-21XZwa .fieldButton-14lHvK:nth-child(1) {
+    right: 5px;
+}
+.field-21XZwa .fieldButton-14lHvK {
+    bottom: 10px;
+    position: absolute;
+}
+.avatar-3mTjvZ ~ button {
+    margin-right: 15px;
+    border-radius: 8px;
+}
