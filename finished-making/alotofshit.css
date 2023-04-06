@@ -3,7 +3,7 @@
     display: none;
 }
 .wordmarkWindows-2dq6rw::after {
-    content: 'UwU-chord';
+    content: 'Deko';
     display: block;
     position: relative;
     width: 200px;
@@ -59,7 +59,7 @@
 }
 
 /* Makes messages slide into chat 
-Try changing the second value '0.6s' and fiddle around with it to change the speed*/
+Try changing the second value '0.6s' and fiddle around with it to change the speed
 @keyframes slide-up {
     0% {
         opacity: 0;
@@ -73,8 +73,9 @@ Try changing the second value '0.6s' and fiddle around with it to change the spe
 .message-2CShn3 {
   animation: slide-up 0.6s ease;
 }
+*/
 
-/* emoji tab menu animation */
+/* emoji tab menu animation 
 .base-2v-uc0 {
     transition: all 0.5s;
 }
@@ -82,6 +83,7 @@ Try changing the second value '0.6s' and fiddle around with it to change the spe
     transition: all 0s;
     transform: scale(1.02);
 }
+*/
 
 /* re-round Spotify Status Images */
 .assetsLargeImageSpotify-17ME3M{border-radius:8px;}
