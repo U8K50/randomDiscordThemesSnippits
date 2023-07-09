@@ -9,3 +9,13 @@
 [class^=message-]:hover [class*=timestampInline-] {
   opacity: 1;
 }
+
+[class*=latin24CompactTimeStamp-] {
+  opacity: 0;
+  transition: 0.2s opacity ease-in-out;
+}
+
+[class^=message-]:hover [class*=latin24CompactTimeStamp-] {
+  opacity: 1;
+}
+/* timestampVisibleOnHover-9PEuZS */
