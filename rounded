@@ -1,0 +1,28 @@
+@import url(https://MarkChan0225.github.io/RoundedDiscord/src/roundeddiscord.css);
+@import url(https://MarkChan0225.github.io/RoundedDiscord/src/experimental.css);
+
+:root {
+  --radius: 16px;
+}
+
+/* this is a quick snippet to make the discord message timestamps only visable when you hover over it */
+/* if you are seeing this feel free to change stuff around */
+
+[class*=timestampInline-] {
+  opacity: 0;
+  transition: 0.2s opacity ease-in-out;
+}
+
+[class^=message-]:hover [class*=timestampInline-] {
+  opacity: 1;
+}
+
+[class*=latin24CompactTimeStamp-] {
+  opacity: 0;
+  transition: 0.2s opacity ease-in-out;
+}
+
+[class^=message-]:hover [class*=latin24CompactTimeStamp-] {
+  opacity: 1;
+}
+/* timestampVisibleOnHover-9PEuZS */
