@@ -5,9 +5,7 @@
   --radius: 16px;
 }
 
-/* this is a quick snippet to make the discord message timestamps only visable when you hover over it */
-/* if you are seeing this feel free to change stuff around */
-
+/* timestamp on hover */
 [class*=timestampInline-] {
   opacity: 0;
   transition: 0.2s opacity ease-in-out;
@@ -34,4 +32,28 @@
 [class^=message-]:hover [class*=latin24CompactTimeStamp-] {
   opacity: 1;
 }
-/* timestampVisibleOnHover-9PEuZS */
+
+/* Add danger colours to dangerous user actions */
+#user-context-close-dm, #user-context-remove-friend, #user-context-block { color: var(--status-danger) }
+#user-context-close-dm:active, #user-context-remove-friend:active, #user-context-block:active {
+    background-color: var(--red-500)!important;
+    color: var(--white-500)!important;    
+}
+#user-context-close-dm[class*="focused-"], #user-context-remove-friend[class*="focused-"], #user-context-block[class*="focused-"] {
+    background-color: var(--button-danger-background);
+    color: var(--white-500);   
+}
+
+/* "Exclusive To Nitro" in profile banner GONE */
+
+[class*=premiumIconWrapper] {
+display: none;
+}
+
+/* "GIF" text in profile banner GONE*/
+
+[class*=gifTag] {
+  display: none;
+}
+
+@import url("https://minidiscordthemes.github.io/Snippets/RoleTint/RoleTint.css");
