@@ -17,6 +17,15 @@
   opacity: 1;
 }
 
+[class*=timestamp-] {
+  opacity: 0;
+  transition: 0.2s opacity ease-in-out;
+}
+
+[class^=message-]:hover [class*=timestamp-] {
+  opacity: 1;
+}
+
 [class*=latin24CompactTimeStamp-] {
   opacity: 0;
   transition: 0.2s opacity ease-in-out;
