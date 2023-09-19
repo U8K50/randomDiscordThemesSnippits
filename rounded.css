@@ -1,6 +1,5 @@
 @import url(https://MarkChan0225.github.io/RoundedDiscord/src/roundeddiscord.css);
 @import url(https://MarkChan0225.github.io/RoundedDiscord/src/experimental.css);
-
 :root {
   --radius: 16px;
 }
@@ -15,12 +14,12 @@
   opacity: 1;
 }
 
-[class*=timestamp-] {
+[class*=timestampVisibleOnHover-] {
   opacity: 0;
   transition: 0.2s opacity ease-in-out;
 }
 
-[class^=message-]:hover [class*=timestamp-] {
+[class^=message-]:hover [class*=timestampVisibleOnHover-] {
   opacity: 1;
 }
 
@@ -48,6 +47,11 @@
 
 [class*=premiumIconWrapper] {
 display: none;
+}
+
+/* Remove GIFT NITRO Button from CHAT BAR */
+[aria-label*="Send a gift"] {
+    display: none;
 }
 
 /* "GIF" text in profile banner GONE*/
