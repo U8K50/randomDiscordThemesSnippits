@@ -49,10 +49,6 @@
 [class*=premiumIconWrapper] {
 display: none;
 }
-/* Hide "Send A Gift" button */
-[aria-label*="Send a gift"] {
-  display: none;
-}
 
 /* "GIF" text in profile banner GONE*/
 
