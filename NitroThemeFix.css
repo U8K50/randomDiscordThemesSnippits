@@ -1,3 +1,23 @@
+.theme-dark .messageGroupCozy-3v_RqN,
+.theme-dark .list-3YHPPb,
+.theme-dark .header-3_zmOb,
+.theme-dark .container-2rzKKA {
+  background: var(--bg-overlay-3,var(--background-primary));
+}
+.theme-dark .createButton-oruGBs {
+    background: var(--bg-overlay-app-frame,var(--background-tertiary));
+}
+
+.theme-light .messageGroupCozy-3v_RqN,
+.theme-light .list-3YHPPb,
+.theme-light .header-3_zmOb,
+.theme-light .container-2rzKKA {
+  background: var(--bg-overlay-3,var(--background-primary));
+}
+.theme-light .createButton-oruGBs {
+    background: var(--bg-overlay-app-frame,var(--background-tertiary));
+}
+
 .theme-dark .sidebar-1tnWFu,
 .theme-dark .sidebarRegionScroller-FXiQOh,
 .theme-dark .searchResultsWrap-5RVOkx,
