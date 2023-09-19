@@ -5,10 +5,6 @@
   --radius: 16px;
 }
 
-[data-offset-key*=a1bln-0-0] {
-  
-}
-
 /* timestamp on hover */
 [class*=timestampInline-] {
   opacity: 0;
