@@ -5,6 +5,10 @@
   --radius: 16px;
 }
 
+[class*=public-DraftStyleDefault-block] [class*=public-DraftStyleDefault-ltr} {
+  border-radius: var(--radius) 0px 0px var(--radius);
+}
+
 /* timestamp on hover */
 [class*=timestampInline-] {
   opacity: 0;
