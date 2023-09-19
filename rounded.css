@@ -111,15 +111,3 @@ display: none;
     border-top-left-radius: 5px;
 }
 
-/* You can change around the settings for the delay and stuff */
-
-.panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {
-    opacity: 0% !important;
-    width: 0px;
-    transition: all 0.2s ease-in-out;
-}
-
-.panels-3wFtMD > .container-YkUktl:hover .flex-2S1XBF > :not(:last-child) {
-    opacity: 100% !important;
-    width: 32px;
-}
