@@ -150,7 +150,7 @@ html:not(.app-focused) #app-mount::after {
   width: 100%; height: 100%;
 }
 
-/* Jump To Present Bar Rewamp */
+/* Jump To Present Bar Revamp */
 [class*="jumpToPresentBar"] {
     display: contents;
 }
