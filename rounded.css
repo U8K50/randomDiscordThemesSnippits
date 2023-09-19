@@ -150,8 +150,7 @@ html:not(.app-focused) #app-mount::after {
   width: 100%; height: 100%;
 }
 
-/* Better Jump To Present Bar Rewamp */
-
+/* Jump To Present Bar Rewamp */
 [class*="jumpToPresentBar"] {
     display: contents;
 }
@@ -167,7 +166,7 @@ html:not(.app-focused) #app-mount::after {
     right: 22px;
     padding: 8px !important;
     height: auto;
-    background-color: #5865F2;
+    background-color: #2e353b20;
     box-shadow: var(--elevation-high);
     border-radius: 100px;
     display: flex;
