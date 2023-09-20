@@ -9,7 +9,8 @@
 .theme-dark .container-jV-A82,
 .theme-dark .container-1iKw09,
 .theme-dark .iconContainer-3cz2oI,
-.theme-dark .box-3QCU9H {
+.theme-dark .box-3QCU9H,
+.theme-dark .list-3YHPPb {
     background: var(--bg-overlay-3,var(--background-secondary));
 }
 .theme-light .sidebar-1tnWFu,
@@ -37,7 +38,14 @@
 }
 .pageWrapper-2PwDoS,
 .homeWrapper-L4ors0,
-.contentRegionScroller-2_GT_N {
+.contentRegionScroller-2_GT_N,
+.footer-5ji8u1,
+.message-24k8JL,
+.container-2rzKKA,
+.createButton-oruGBs,
+.scroller-nxCRu_,
+.lookFilled-1H2Jvj,
+.messageGroupCozy-3v_RqN {
     background: var(--bg-overlay-chat,var(--background-primary));
 }
 .homeWrapper-L4ors0 > .headerBar-1dSpQr,
@@ -86,7 +94,6 @@
 .accountProfileCard-lbN7n-,
 .container-1SX9VC,
 .floating-window-titlebar,
-.header-1w9Q93,
 .tertiary-1e-lAP,
 .container-2oNtJn,
 .wrapper-22rqw6,
@@ -106,7 +113,8 @@
 .itemFilled-2Fo7lr,
 .wrapper-1NNaWG,
 .bd-addon-list .bd-addon-card,
-.notDetected-M3Ghh2 {
+.notDetected-M3Ghh2,
+.header-1w9Q93 {
     background: var(--bg-overlay-3,var(--background-secondary));
 }
 #bd-editor-controls,
