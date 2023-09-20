@@ -97,6 +97,9 @@
 }
 
 /* Vencord */
+[class*=scroller-nxCRu_] {
+    border-radius: var(--radius);
+}
 .vc-bf-folder-sidebar {
   margin-right: 15px;
   margin-left: -5px;
