@@ -1,3 +1,12 @@
+.container-2RRFHK .fixClipping-3GOd_d .layerContainer-2lfOPe .layerContainer-2lfOPe {
+    background: transparent;
+    opacity: 0;
+}
+
+[aria-haspopup="listbox"], [aria-controls*="popout_329"], [class*=option-Uc12mm] {
+    background: var(--bg-overlay-3,var(--background-primary));
+}
+
 .theme-dark .sidebar-1tnWFu,
 .theme-dark .sidebarRegionScroller-FXiQOh,
 .theme-dark .searchResultsWrap-5RVOkx,
@@ -10,7 +19,8 @@
 .theme-dark .container-1iKw09,
 .theme-dark .iconContainer-3cz2oI,
 .theme-dark .box-3QCU9H,
-.theme-dark .list-3YHPPb {
+.theme-dark .list-3YHPPb,
+.vc-addon-card {
     background: var(--bg-overlay-3,var(--background-secondary));
 }
 .theme-light .sidebar-1tnWFu,
