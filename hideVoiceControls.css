@@ -4,6 +4,10 @@
 @import url(https://dablulite.github.io/css-snippets/NoLightInDark/import.css);
 @import url(https://raw.githubusercontent.com/U8K50/randomDiscordThemesSnippets/main/DiscordThemeFix.css);
 
+/* Fix code block padding */
+[class*=scrollbarGhostHairline-2LpzZ9] [class*=scrollbar-3vVt8d] [class*=hljs] {
+  border-radius: 7px;
+}
 
 :root {
   --radius: 16px;
@@ -160,7 +164,6 @@ html.app-focused {
   transition: filter 400ms ease-out, filter 550ms ease-out;
 }
 */
-
 /* Jump To Present Bar Revamp */
 [class*="jumpToPresentBar"] {
     display: contents;
