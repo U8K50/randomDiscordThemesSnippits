@@ -1,5 +1,4 @@
-@import url(https://MarkChan0225.github.io/RoundedDiscord/src/roundeddiscord.css);
-@import url(https://MarkChan0225.github.io/RoundedDiscord/src/experimental.css);
+@import url(https://raw.githubusercontent.com/U8K50/randomDiscordThemesSnippets/main/roundeddiscord.css);
 @import url(https://discordstyles.github.io/Fluent/Icons.css);
 @import url(https://dablulite.github.io/css-snippets/NoLightInDark/import.css);
 @import url(https://raw.githubusercontent.com/U8K50/randomDiscordThemesSnippets/main/DiscordThemeFix.css);
@@ -8,6 +7,7 @@
 [class*=scrollbarGhostHairline-2LpzZ9] [class*=scrollbar-3vVt8d] [class*=hljs] {
   border-radius: 7px;
 }
+
 
 :root {
   --radius: 16px;
