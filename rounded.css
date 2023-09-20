@@ -5,7 +5,7 @@
 @import url(https://raw.githubusercontent.com/U8K50/randomDiscordThemesSnippets/main/DiscordThemeFix.css);
 
 /* Fix code block padding */
-[class*=scrollbarGhostHairline-2LpzZ9], [class*=scrollbar-3vVt8d] [class*=hljs] {
+[class*=scrollbarGhostHairline-2LpzZ9] [class*=scrollbar-3vVt8d] [class*=hljs] {
   border-radius: 7px;
 }
 
