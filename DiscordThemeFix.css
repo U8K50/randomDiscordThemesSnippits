@@ -3,7 +3,7 @@
     opacity: 0;
 }
 
-[aria-haspopup="listbox"], [aria-controls*="popout_329"], [class*=option-Uc12mm] {
+[aria-controls*="popout_329"], [class*=option-Uc12mm] {
     background: var(--bg-overlay-3,var(--background-primary));
 }
 
