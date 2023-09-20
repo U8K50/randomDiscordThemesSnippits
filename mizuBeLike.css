@@ -4,6 +4,10 @@
 @import url(https://dablulite.github.io/css-snippets/NoLightInDark/import.css);
 @import url(https://raw.githubusercontent.com/U8K50/randomDiscordThemesSnippets/main/DiscordThemeFix.css);
 
+/* Fix code block padding */
+[class*=scrollbarGhostHairline-2LpzZ9] [class*=scrollbar-3vVt8d] [class*=hljs] {
+  border-radius: 7px;
+}
 
 :root {
   --radius: 16px;
@@ -37,7 +41,6 @@
   opacity: 1;
 }
 */
-
 /* Add danger colours to dangerous user actions */
 #user-context-close-dm, #user-context-remove-friend, #user-context-block { color: var(--status-danger) }
 #user-context-close-dm:active, #user-context-remove-friend:active, #user-context-block:active {
@@ -141,7 +144,7 @@ display: none;
     animation: spin 0.8s ease;
 }
 
-/* blur */
+/* blur 
 html:not(.app-focused) {
   filter: blur(4px);
   transition: filter 400ms ease-in, filter 550ms ease-in;
@@ -160,7 +163,7 @@ html.app-focused {
   filter: blur(0);
   transition: filter 400ms ease-out, filter 550ms ease-out;
 }
-
+*/
 /* Jump To Present Bar Revamp */
 [class*="jumpToPresentBar"] {
     display: contents;
