@@ -179,7 +179,7 @@ path[d="M11 5V3C16.515 3 21 7.486 21 13H19C19 8.589 15.411 5 11 5ZM17 13H15C15 1
 }
 /* icon-3XHs8t */
 .item-5ApiZt:not(#account-status-picker, [role=menuitemradio], .hideInteraction-1vQrZJ) {
-  display: none !important;
+  display: show;
 }
 .item-5ApiZt:not(#account-status-picker, [role=menuitemradio], .hideInteraction-1vQrZJ)[role=menuitem]::before, .item-5ApiZt:not(#account-status-picker, [role=menuitemradio], .hideInteraction-1vQrZJ)[role=menuitemcheckbox]::before {
   width: 18px;
