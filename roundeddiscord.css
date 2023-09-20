@@ -1,3 +1,12 @@
+/* Fix code block padding */
+[class*=scrollbarGhostHairline-2LpzZ9] [class*=scrollbar-3vVt8d] [class*=hljs] {
+  border-radius: 10px;
+}
+
+:root {
+  --radius: 16px;
+}
+
 /* Chat UI */
 .tutorialContainer-1pL9QS {
   margin-top: 6px;
