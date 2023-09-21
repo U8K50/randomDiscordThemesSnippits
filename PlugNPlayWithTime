@@ -1,19 +1,23 @@
 @import url(https://raw.githubusercontent.com/U8K50/randomDiscordThemesSnippets/main/roundeddiscord.css);
-@import url(https://discordstyles.github.io/Fluent/Icons.css);
 @import url(https://dablulite.github.io/css-snippets/NoLightInDark/import.css);
 @import url(https://raw.githubusercontent.com/U8K50/randomDiscordThemesSnippets/main/DiscordThemeFix.css);
 
-/* Fix code block padding */
-[class*=scrollbarGhostHairline-2LpzZ9] [class*=scrollbar-3vVt8d] [class*=hljs] {
-  border-radius: 10px;
+/* user Popout Message/Note Input Box Fix */
+[class*=textarea-_59yqs], [class*=messageInput-1enlaJ] {
+    border-radius: 10px;
+    background-color: transparent;
 }
 
-
-:root {
-  --radius: 16px;
+/* Mutual Friends/Server Button Fix */
+.collapseBtn-3-5Cu0 {
+    background-color: transparent;
+    border-radius: 0;
+    height: 48px;
+    padding: 13px 12px 11px;
+    width: 100%;
 }
 
-/* timestamp on hover 
+/* Timestamp on Hover 
 [class*=timestampInline-] {
   opacity: 0;
   transition: 0.2s opacity ease-in-out;
@@ -41,6 +45,7 @@
   opacity: 1;
 }
 */
+
 /* Add danger colours to dangerous user actions */
 #user-context-close-dm, #user-context-remove-friend, #user-context-block { color: var(--status-danger) }
 #user-context-close-dm:active, #user-context-remove-friend:active, #user-context-block:active {
@@ -52,25 +57,17 @@
     color: var(--white-500);   
 }
 
-/* "Exclusive To Nitro" in profile banner GONE */
-
+/* Remove Exclusive To Nitro in Profile Banner */
 [class*=premiumIconWrapper] {
 display: none;
 }
 
-/* Remove GIFT NITRO Button from CHAT BAR */
+/* Remove Gift Nitro Button on Message Bar */
 [aria-label*="Send a gift"] {
     display: none;
 }
 
-/* "GIF" text in profile banner GONE*/
-
-[class*=gifTag] {
-  display: none;
-}
-
-/* role tint */
-
+/* Role Tint */
 .rolePill-78LFtg {
     padding: 0;
     overflow: hidden;
@@ -124,7 +121,7 @@ display: none;
     border-top-left-radius: 5px;
 }
 
-/* home button go brrrrrrrr */
+/* Home Button Spin animation on Hover*/
 @keyframes spin {
     0% {
         transform: rotate(0deg);
@@ -144,26 +141,6 @@ display: none;
     animation: spin 0.8s ease;
 }
 
-/* blur 
-html:not(.app-focused) {
-  filter: blur(4px);
-  transition: filter 400ms ease-in, filter 550ms ease-in;
-}
-
-html:not(.app-focused) #app-mount::after {
-  content: "";
-  z-index: 200;
-  position: fixed;
-  background: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100%;
-}
-
-html.app-focused {
-  filter: blur(0);
-  transition: filter 400ms ease-out, filter 550ms ease-out;
-}
-*/
 /* Jump To Present Bar Revamp */
 [class*="jumpToPresentBar"] {
     display: contents;
