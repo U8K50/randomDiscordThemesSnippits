@@ -1,5 +1,4 @@
 @import url(https://raw.githubusercontent.com/U8K50/randomDiscordThemesSnippets/main/roundeddiscord.css);
-@import url(https://raw.githubusercontent.com/U8K50/randomDiscordThemesSnippets/main/Icons.css);
 @import url(https://dablulite.github.io/css-snippets/NoLightInDark/import.css);
 @import url(https://raw.githubusercontent.com/U8K50/randomDiscordThemesSnippets/main/DiscordThemeFix.css);
 
@@ -43,7 +42,6 @@
 }
 
 /* "Exclusive To Nitro" in profile banner GONE */
-
 [class*=premiumIconWrapper] {
 display: none;
 }
