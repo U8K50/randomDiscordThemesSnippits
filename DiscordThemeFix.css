@@ -20,6 +20,7 @@
 .theme-dark .iconContainer-3cz2oI,
 .theme-dark .box-3QCU9H,
 .theme-dark .list-3YHPPb,
+.theme-dark .header-3_zmOb
 .vc-addon-card {
     background: var(--bg-overlay-3,var(--background-secondary));
 }
@@ -34,7 +35,8 @@
 .theme-light .container-jV-A82,
 .theme-light .container-1iKw09,
 .theme-light .iconContainer-3cz2oI,
-.theme-light .box-3QCU9H {
+.theme-light .box-3QCU9H,
+.theme-light .header-3_zmOb {
     background: var(--bg-overlay-2,var(--background-secondary));
 }
 .mainCard-3KBsBI .input-3O04eu {
