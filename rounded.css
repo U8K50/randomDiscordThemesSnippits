@@ -2,6 +2,21 @@
 @import url(https://dablulite.github.io/css-snippets/NoLightInDark/import.css);
 @import url(https://raw.githubusercontent.com/U8K50/randomDiscordThemesSnippets/main/DiscordThemeFix.css);
 
+/* user Popout Message/Note Input Box Fix */
+[class*=textarea-_59yqs], [class*=messageInput-1enlaJ] {
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+/* Mutual Friends/Server Button Fix */
+.collapseBtn-3-5Cu0 {
+    background-color: transparent;
+    border-radius: 0;
+    height: 48px;
+    padding: 13px 12px 11px;
+    width: 100%;
+}
+
 /* timestamp on hover */
 [class*=timestampInline-] {
   opacity: 0;
@@ -41,24 +56,17 @@
     color: var(--white-500);   
 }
 
-/* "Exclusive To Nitro" in profile banner GONE */
+/* Remove Exclusive To Nitro in Profile Banner */
 [class*=premiumIconWrapper] {
 display: none;
 }
 
-/* Remove GIFT NITRO Button from CHAT BAR */
+/* Remove Gift Nitro Button on Message Bar */
 [aria-label*="Send a gift"] {
     display: none;
 }
 
-/* "GIF" text in profile banner GONE*/
-
-[class*=gifTag] {
-  display: none;
-}
-
-/* role tint */
-
+/* Role Tint */
 .rolePill-78LFtg {
     padding: 0;
     overflow: hidden;
@@ -112,7 +120,7 @@ display: none;
     border-top-left-radius: 5px;
 }
 
-/* home button go brrrrrrrr */
+/* Home Button Spin animation on Hover*/
 @keyframes spin {
     0% {
         transform: rotate(0deg);
