@@ -17,7 +17,7 @@
     width: 100%;
 }
 
-/* timestamp on hover */
+/* Timestamp on Hover */
 [class*=timestampInline-] {
   opacity: 0;
   transition: 0.2s opacity ease-in-out;
