@@ -1,21 +1,20 @@
 /* this is a quick snippet to make the discord message timestamps only visable when you hover over it */
 /* if you are seeing this feel free to change stuff around */
 
-[class*=timestampInline-] {
+[class*=timestampInline] {
   opacity: 0;
   transition: 0.2s opacity ease-in-out;
 }
 
-[class^=message-]:hover [class*=timestampInline-] {
+[aria-roledescription^=Message]:hover [class*=timestampInline] {
   opacity: 1;
 }
 
-[class*=latin24CompactTimeStamp-] {
+[class*=timestampVisibleOnHover] {
   opacity: 0;
   transition: 0.2s opacity ease-in-out;
 }
 
-[class^=message-]:hover [class*=latin24CompactTimeStamp-] {
+[aria-roledescription^=Message]:hover [class*=timestampVisibleOnHover] {
   opacity: 1;
-}
-/* timestampVisibleOnHover-9PEuZS */
+} 
