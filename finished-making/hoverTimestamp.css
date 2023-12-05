@@ -6,7 +6,7 @@
   transition: 0.2s opacity ease-in-out;
 }
 
-[aria-roledescription^=Message]:hover [class*=timestampInline] {
+[aria-roledescription^=Message]:hover, [role="article"]:hover [class*=timestampInline] {
   opacity: 1;
 }
 
@@ -18,3 +18,7 @@
 [aria-roledescription^=Message]:hover [class*=timestampVisibleOnHover] {
   opacity: 1;
 } 
+
+* {
+  padding: 0.02rem;
+}
