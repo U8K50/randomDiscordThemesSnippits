@@ -1,0 +1,14 @@
+[class*="content_"] {margin-right: 8px;}
+[class*="form_"] {bottom: -2px;}
+[class*="typing_"] {bottom: -8px;}
+.container_b2ce9c {height: calc(100% - 16px)}
+[class*="scrollableContainer_"], [class*="floating_"], .container_def45c {border-radius: 16px !important;}
+[class*="searchBarComponent_"] {text-align: center !important;}
+[class*="base_"]:not(.base__92a12), [class*="members_"], .container_b2ce9c, .container__5c7e7 {
+  margin: 8px 0 !important;
+  border-radius: 16px !important;
+}
+[class*="sidebar_"], [class*="chat_"] {
+  margin: 0 5px;
+  border-radius: 16px !important;
+}
