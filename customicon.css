@@ -1,0 +1,37 @@
+.childWrapper__01b9c > svg:not(.favoriteIcon_adf80e) {
+	display: none;
+}
+.childWrapper__01b9c:has(> svg:not(.favoriteIcon_adf80e))::before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 65%;
+	height: 65%;
+	background: hsl(220, 15%, 40%);
+	-webkit-mask-image: url('https://www.svgrepo.com/show/448147/sparrow.svg');
+	-webkit-mask-size: auto;
+	-webkit-mask-repeat: none;
+  mask-image: url('https://www.svgrepo.com/show/448147/sparrow.svg');
+	mask-size: auto;
+	mask-repeat: none;
+}
+.wrapper_d281dd:hover .childWrapper__01b9c::before {
+	transition: background-color 0.15s ease-out, transform 0.4s ease;
+	transform: rotate(0deg) scale(1);
+}
+.wrapper_d281dd:hover > .childWrapper__01b9c::before,
+.wrapper_d281dd.selected_f5ec8e > .childWrapper__01b9c::before {
+	background: white;
+	transform: rotate(-360deg) scale(0.8);
+}
+.lowerBadge__669e7::before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	transform: translate(-4px, -4px);
+	z-index: -1;
+	background: var(--bg-3);
+	border-radius: 50%;
+}
